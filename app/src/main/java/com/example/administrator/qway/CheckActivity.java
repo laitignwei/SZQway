@@ -255,7 +255,7 @@ public class CheckActivity extends AppCompatActivity {
      /*获取表单所有信息*/
         String current_stock=mCurrentStock.getText().toString();
         String id=mId.getText().toString();
-        String urlstr="http://szqwayoa.dns0755.net:82/Qwayserver/Update.php";
+        String urlstr="http://szqwayoa.dns0755.net:82/Qwayservers/Update.php";
         //建立网络连接
         URL url = new URL(urlstr);
         HttpURLConnection http= (HttpURLConnection) url.openConnection();
